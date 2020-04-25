@@ -61,7 +61,7 @@ C: 0.1, 1, 10, 100, 1000
 ```text
 Degree: 2, 3, 4, 5, 6
 ```
-## Train the SVC model with PetalLength, PetalWidth features
+## Train the SVM model with PetalLength, PetalWidth features
 
 # Experiment 1
 
@@ -155,7 +155,7 @@ degree: 5
 #### for Test data
 ![](figures/Figure_preds_feature:PetalLengthPetalWidthC:10.0kernel:polydegree:5gamma:1.0accuracy:0.93mode:test.png)
 
-## Train the SVC model with SepalLength, SepalWidth features
+## Train the SVM model with SepalLength, SepalWidth features
 
 # Experiment 1
 
