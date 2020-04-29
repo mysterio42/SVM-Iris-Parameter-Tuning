@@ -33,7 +33,7 @@ def plot_boundary(model, data, param):
     preds = model.predict(x_y)
     preds = preds.reshape(x_torow.shape)
 
-    cmap = colors.ListedColormap(['deeppink', 'green', 'blue', ])
+    cmap = colors.ListedColormap(['orange', 'green', 'blue', ])
 
     plt.subplot(1, 1, 1)
     plt.contourf(x_torow, y_tocol, preds, cmap=cmap, alpha=0.8)
